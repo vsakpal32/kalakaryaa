@@ -64,7 +64,7 @@ export default function WallMuralArtistWebsite() {
       <section className="py-20 px-6 md:px-16 bg-gray-50">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <img
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop"
+            src="./src/assets/images/artist_image.jpeg"
             alt="Artist"
             className="rounded-3xl shadow-2xl h-[500px] object-cover w-full"
           />
