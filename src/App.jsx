@@ -1,3 +1,4 @@
+import myImage from './assets/images/artist_image.jpeg'
 export default function WallMuralArtistWebsite() {
   const projects = [
     {
@@ -64,7 +65,7 @@ export default function WallMuralArtistWebsite() {
       <section className="py-20 px-6 md:px-16 bg-gray-50">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <img
-            src="./src/assets/images/artist_image.jpeg"
+            src={myImage}
             alt="Artist"
             className="rounded-3xl shadow-2xl h-[500px] object-cover w-full"
           />
