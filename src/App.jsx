@@ -1,3 +1,4 @@
+import { FaWhatsapp } from "react-icons/fa";
 import myImage from './assets/images/artist_image.jpeg'
 export default function WallMuralArtistWebsite() {
   const projects = [
@@ -217,6 +218,14 @@ export default function WallMuralArtistWebsite() {
               >
                 Send Inquiry
               </button>
+              <a
+                href="https://wa.me/919922437341?text=Hi%20I%20want%20to%20inquire%20about%20a%20wall%20mural%20project"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-green-500 text-white py-4 rounded-2xl font-semibold text-center hover:opacity-90 transition"
+              >
+                Chat on WhatsApp
+              </a>
             </form>
           </div>
         </div>
@@ -224,7 +233,7 @@ export default function WallMuralArtistWebsite() {
 
       {/* Footer */}
       <footer className="bg-black text-white py-8 text-center">
-        <p>© 2026 Wall Mural Artist Portfolio. All rights reserved.</p>
+        <p>© 2026 Art.Shubhangi. All rights reserved.</p>
       </footer>
     </div>
   );
